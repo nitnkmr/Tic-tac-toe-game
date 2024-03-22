@@ -42,8 +42,7 @@ checkWin();
 // }
 let xcount = 0
 function checkWin(){
-    console.log(p1);
-    console.log(p2);
+
   let result1 =  winArray.some(str => str == p1)
 //   let result1 =  winArray.some(str => {
 //       console.log(str, "str");
@@ -75,6 +74,6 @@ if(result2 == true){
         boxes[i].innerText = "o"
         boxes[i].style.color = "red"
     }
-    result.innerText = "Player 2 is winner"
+    result.innerText = "Player 1 is winner"
    }
 }
